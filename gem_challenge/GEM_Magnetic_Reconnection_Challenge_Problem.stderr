@@ -1,0 +1,11 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   241  100   120  100   121   1875   1890 --:--:-- --:--:-- --:--:--  3765
++ echo /anvil/projects/x-phy220105/cws/gkyllPreG0Dev/gkeyllSoftCpu/bin/gkyl
++ echo /anvil/projects/x-phy220105/cwsmith/gkeyllDev/pgkyl
++ echo /anvil/projects/x-phy220105/cwsmith/miniforge3/bin/conda
++ set +x
+sh: line 0: cd: /export/vlabApps/gemReconnection: No such file or directory
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   243  100   120  100   123   7058   7235 --:--:-- --:--:-- --:--:-- 15187

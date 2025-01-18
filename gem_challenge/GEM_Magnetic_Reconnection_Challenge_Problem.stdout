@@ -1,0 +1,60 @@
+/anvil/projects/x-phy220105/cws/gkyllPreG0Dev/gkeyllSoftCpu/bin/gkyl
+/anvil/projects/x-phy220105/cwsmith/gkeyllDev/pgkyl
+/anvil/projects/x-phy220105/cwsmith/miniforge3/bin/conda
+git hash: 35e9a61a4a87677ed73f9f9bf10d874e04f09cb4
+/home/x-gcommunityus/vlab_workdirs/PROCESS_d017ddca-73ea-45f2-9b6b-b6b83a9c56f8
+10c10
+< elcMass = ionMass/25
+---
+> elcMass = ionMass/25.0
+40c40
+<    tEnd = 25/OmegaCi0,
+---
+>    tEnd = 25.0/OmegaCi0,
+Wed Jan 08 2025 10:22:41.000000000
+Gkyl built with 9663ea594e80+
+Gkyl built on Apr 10 2024 16:08:26
+Initializing Multi-fluid simulation ...
+Initialization completed in 0.141964 sec
+
+Starting main loop of Multi-fluid simulation ...
+
+ ** Time step too large! Aborting this step! ** Step failed with dt=250! Will retake with dt=0.4
+ Step 0 at time 0. Time step 0.4. Completed 0%
+0123456789 Step     63 at time    25.200000.  Time step  4.000000e-01.  Completed 10%
+0123456789 Step    126 at time    50.400000.  Time step  4.000000e-01.  Completed 20%
+0123456789 Step    188 at time    75.200000.  Time step  4.000000e-01.  Completed 30%
+0123456789 Step    250 at time    100.00000.  Time step  4.000000e-01.  Completed 40%
+0123456789 Step    313 at time    125.20000.  Time step  4.000000e-01.  Completed 50%
+0123456789 Step    375 at time    150.00000.  Time step  4.000000e-01.  Completed 60%
+0123456789 Step    438 at time    175.20000.  Time step  4.000000e-01.  Completed 70%
+0123456789 Step    500 at time    200.00000.  Time step  4.000000e-01.  Completed 80%
+0123456789 Step    563 at time    225.20000.  Time step  4.000000e-01.  Completed 90%
+0123456789 Step    625 at time    250.00000.  Time step  4.000000e-01.  Completed 100%
+0
+
+Total number of time-steps 626
+   Number of forward-Euler calls 0
+   Number of RK stage-2 failures 0
+   Number of RK stage-3 failures 0
+Solver took                                    1.27584 s   ( 0.002038 s/step)   (33.597%)
+Solver BCs took                                0.12213 s   ( 0.000195 s/step)   ( 3.216%)
+Field solver took                              1.25880 s   ( 0.002011 s/step)   (33.149%)
+Field solver BCs                               0.08917 s   ( 0.000142 s/step)   ( 2.348%)
+Function field solver took                     0.00000 s   ( 0.000000 s/step)   ( 0.000%)
+Moment calculations took                       0.00000 s   ( 0.000000 s/step)   ( 0.000%)
+Integrated moment calculations took            0.10011 s   ( 0.000160 s/step)   ( 2.636%)
+Field energy calculations took                 0.11128 s   ( 0.000178 s/step)   ( 2.930%)
+Collision solver(s) took                       0.00000 s   ( 0.000000 s/step)   ( 0.000%)
+Collision (other) took                         0.00000 s   ( 0.000000 s/step)   ( 0.000%)
+Source updaters took                           0.63046 s   ( 0.001007 s/step)   (16.602%)
+Stepper combine/copy took                      0.00000 s   ( 0.000000 s/step)   ( 0.000%)
+Forward Euler combine took                     0.00000 s   ( 0.000000 s/step)   ( 0.000%)
+Time spent in barrier function                 0.02924 s   ( 0.000047 s/step)   ( 0.770%)
+Data write took                                0.19993 s   ( 0.000319 s/step)   ( 5.265%)
+Write restart took                             0.01121 s   ( 0.000018 s/step)   ( 0.295%)
+[Unaccounted for]                              0.20965 s   ( 0.000335 s/step)   ( 5.521%)
+
+Main loop completed in                         3.79746 s   ( 0.006066 s/step)   (   100%)
+
+Wed Jan 08 2025 10:22:45.000000000
